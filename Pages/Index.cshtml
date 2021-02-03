@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@System.Globalization.CultureInfo.CurrentUICulture <!-- https://github.com/dotnet/AspNetCore.Docs/issues/4076#issuecomment-326590420 -->
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @Model.FirstName</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
